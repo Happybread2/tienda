@@ -12,7 +12,7 @@ app.use(express.json());
 app.use('/api/usuarios', require('./routes/usuarios.routes'));
 
 // Puerto
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT;
 app.listen(PORT, () => {
   console.log(`Servidor corriendo en puerto ${PORT}`);
 });
