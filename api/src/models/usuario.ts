@@ -3,10 +3,10 @@ import db from '../config/database';
 
 // Atributos del modelo
 interface UserDetalleAttributes {
-  id: number;
-  name_user: string;
-  subname_user: string;
-  deuda: number;
+  id           : number;
+  name_user    : string;
+  subname_user : string;
+  deuda        : number;
 }
 
 // Atributos opcionales al crear

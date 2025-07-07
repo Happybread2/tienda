@@ -3,10 +3,10 @@ import db from '../config/database';
 
 // 1. Atributos del modelo
 interface BoletaAttributes {
-  id: number;
-  valor: bigint;
-  iva: bigint;
-  fecha: Date;
+  id    : number;
+  valor : bigint;
+  iva   : bigint;
+  fecha : Date;
 }
 
 // 2. Atributos al crear (id lo genera MySQL automáticamente)

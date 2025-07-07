@@ -4,11 +4,11 @@ import Boleta from './boleta';
 
 // Atributos de Boleta_detalle
 interface BoletaDetalleAttributes {
-  id: number;
-  name_producto: string;
-  valor_unitario: bigint;
-  cantida: number;
-  id_boleta: number;
+  id              : number;
+  name_producto   : string;
+  valor_unitario  : bigint;
+  cantida         : number;
+  id_boleta       : number;
 }
 
 // Atributos opcionales al crear
